@@ -43,6 +43,16 @@ final class SqlGetGroupTranslationsIntegration extends TestCase
         $this->assertEqualsCanonicalizing($expected, $actual);
     }
 
+    public function test_it_returns_an_empty_array_if_the_group_code_does_not_exist(): void
+    {
+        $query = $this->getQuery();
+
+        $expected = [];
+        $actual = $query->byGroupCodesAndLocale(['unknown_group'], 'fr_FR');
+
+        $this->assertEqualsCanonicalizing($expected, $actual);
+    }
+
     protected function getConfiguration(): Configuration
     {
         return $this->catalog->useMinimalCatalog();

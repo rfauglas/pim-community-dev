@@ -60,7 +60,7 @@ final class SqlGetExistingAttributeOptionsWithValuesIntegration extends TestCase
 
     private function assertArrayEquals(array $expected, array $actual): void
     {
-        // We want to check the arrays are equl no matter the order.
+        // We want to check the arrays are equal no matter the order.
         // assertEqualsCanonicalizing works only for first level, not for second, third, etc.. levels.
         // As you know our arrays have only 2 levels, we can perform a assertEqualsCanonicalizing on second level only.
         \PHPUnit\Framework\Assert::assertEqualsCanonicalizing(array_keys($expected), array_keys($actual));
