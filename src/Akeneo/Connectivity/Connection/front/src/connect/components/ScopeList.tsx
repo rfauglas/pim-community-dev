@@ -3,7 +3,7 @@ import {useTranslate} from '../../shared/translate';
 import styled from 'styled-components';
 import {
     AddAttributeIcon, AssociateIcon,
-    CategoryIcon,
+    CategoryIcon, CheckRoundIcon,
     getColor,
     getFontSize,
     GroupsIcon,
@@ -51,7 +51,7 @@ export const ScopeList: FC<Props> = ({scopeMessages}) => {
                     const entities = translate(
                         `akeneo_connectivity.connection.connect.apps.scope.entities.${scopeMessage.entities}`
                     );
-                    const Icon = iconsMap[scopeMessage.icon];
+                    const Icon = iconsMap[scopeMessage.icon] ?? CheckRoundIcon;
 
                     return (
                         <ScopeItem key={key}>

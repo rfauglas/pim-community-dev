@@ -63,6 +63,10 @@ akeneo_connectivity.connection:
             unreachable: We can't reach the marketplace, please come back later.
             scroll_to_top: Scroll to the top
         apps:
+            title: Connect
+            activate:
+                flash:
+                    error: Sorry, an error occurred while connecting the App.
             wizard:
                 title: Connect
                 action:
@@ -74,10 +78,6 @@ akeneo_connectivity.connection:
                     no_scope: No specific authorizations have been requested.
                     helper: To know more about about app authorization,
                     helper_link: check out our Help Center for more information.
-            title: Connect
-            activate:
-                flash:
-                    error: Sorry, an error occurred while connecting the App.
             scope:
                 type:
                     view: 'View {{ entities }}'
@@ -92,7 +92,6 @@ akeneo_connectivity.connection:
                     association_types: association types
                     products: products and product models
             error:
-                no_client_id: No client_id specified.
                 sub_text: Please contact the app developer or Akeneo support
             constraint:
                 client_id:
