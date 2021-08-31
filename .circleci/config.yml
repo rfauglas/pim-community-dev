@@ -216,7 +216,6 @@ jobs:
                 name: Add PhpStan deprecated tests
                 command: |
                     docker-compose run -u www-data --rm php composer require --dev phpstan/phpstan-deprecation-rules
-                    sed -i '2,3d' phpstan.neon
                     sed -i '2i\    - vendor/phpstan/phpstan-deprecation-rules/rules.neon' phpstan.neon
           - run:
                 name: Analyzes source code to flag programming errors, bugs, stylistic errors, and suspicious constructs
