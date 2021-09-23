@@ -31,7 +31,7 @@ class SecurityController extends AbstractController
     }
 
     /**
-     * @Template("PimUserBundle:Security:login.html.twig")
+     * @Template("@PimUser/Security/login.html.twig")
      */
     public function login()
     {
