@@ -340,6 +340,8 @@ services:
             - '%pim_catalog.entity.category.class%'
             - 'pim_enrich_product_model_categories_view'
             - '@@AkeneoPimEnrichment/ProductModel/listCategories.json.twig'
+        calls:
+            - [ 'setContainer', [ '@service_container' ] ]
 
     pim_enrich.controller.product:
         public: true
@@ -353,6 +355,8 @@ services:
             - '@oro_security.security_facade'
             - 'pim_enrich_product_categories_view'
             - '@@AkeneoPimEnrichment/Product/listCategories.json.twig'
+        calls:
+            - [ 'setContainer', [ '@service_container' ] ]
 
     pim_api.controller.media_file:
         public: true
