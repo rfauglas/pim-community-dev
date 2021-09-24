@@ -159,7 +159,7 @@ class JobLauncher
             $jobCode
         );
 
-        $process = new Process($command);
+        $process = new Process([$command]);
         $process->run();
 
         if (!$process->isSuccessful()) {
