@@ -107,7 +107,7 @@
     "backbone": "0.9.10",
     "css-loader": "^3.3.0",
     "dep-diff": "1.0.1",
-    "dropzone": "4.0.1",
+    "dropzone": "5.9.3",
     "formik": "^2.0.6",
     "jquery": "3.4.0",
     "less": "^3.9.0",
