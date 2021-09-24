@@ -3541,10 +3541,10 @@ domutils@^2.4.2, domutils@^2.4.3, domutils@^2.4.4:
     domelementtype "^2.0.1"
     domhandler "^4.0.0"
 
-dropzone@4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/dropzone/-/dropzone-4.0.1.tgz#9e6e3430a85bd5ee8f430f058abd0c877b25fbec"
-  integrity sha1-nm40MKhb1e6PQw8Fir0Mh3sl++w=
+dropzone@5.9.3:
+  version "5.9.3"
+  resolved "https://registry.yarnpkg.com/dropzone/-/dropzone-5.9.3.tgz#b3070ae090fa48cbc04c17535635537ca72d70d6"
+  integrity sha512-Azk8kD/2/nJIuVPK+zQ9sjKMRIpRvNyqn9XwbBHNq+iNuSccbJS6hwm1Woy0pMST0erSo0u4j+KJaodndDk4vA==
 
 duplexify@^3.4.2, duplexify@^3.6.0:
   version "3.7.1"
