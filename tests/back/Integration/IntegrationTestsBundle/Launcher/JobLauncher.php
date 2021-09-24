@@ -370,7 +370,7 @@ class JobLauncher
             $timeLimitInSeconds === null ? '' : sprintf('--time-limit=%d', $timeLimitInSeconds)
         );
 
-        $process = new Process($command);
+        $process = new Process([$command]);
         $process->start(function (string $type, string $data) {
             if ($type === Process::ERR) {
                 $this->logger->error($data);
@@ -433,7 +433,7 @@ class JobLauncher
             $username
         );
 
-        $process = new Process($command);
+        $process = new Process([$command]);
         $process->run();
 
         if (!$process->isSuccessful() && !BatchCommand::EXIT_WARNING_CODE === $process->getExitCode()) {
