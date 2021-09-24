@@ -131,7 +131,7 @@
     "reakit": "^1.0.0-rc.0",
     "redux": "^4.0.0",
     "style-loader": "^1.0.1",
-    "styled-components": "^5.1.1",
+    "styled-components": "^5.3.1",
     "summernote": "0.6.16",
     "underscore": "1.8.3",
     "victory": "^33.1.6"
