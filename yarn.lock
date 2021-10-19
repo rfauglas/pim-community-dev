@@ -1113,10 +1113,10 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
-"@types/backbone@1.4.8":
-  version "1.4.8"
-  resolved "https://registry.yarnpkg.com/@types/backbone/-/backbone-1.4.8.tgz#4ccd5553263d2d6052033df2b55257c73451620f"
-  integrity sha512-j0hwWnvp4UvMkI3mFwDBz6ETFbuFl+gvsO2EFMGALt4LY5KTQZ7hRR4q6S8V6wqH0NeU5K6GEyZdMRaCNRS9EQ==
+"@types/backbone@1.4.14":
+  version "1.4.14"
+  resolved "https://registry.yarnpkg.com/@types/backbone/-/backbone-1.4.14.tgz#4b71f0c25d89cfa9a10b18042f0b03d35a53364c"
+  integrity sha512-85ldQ99fiYTJFBlZuAJRaCdvTZKZ2p1fSs3fVf+6Ub6k1X0g0hNJ0qJ/2FOByyyAQYLtbEz3shX5taKQfBKBDw==
   dependencies:
     "@types/jquery" "*"
     "@types/underscore" "*"
