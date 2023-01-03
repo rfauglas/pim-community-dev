@@ -109,7 +109,7 @@
     "yamljs": "0.3.0"
   },
   "dependencies": {
-    "ajv": "^6.10.2",
+    "ajv": "^8.12.0",
     "akeneo-design-system": "link:akeneo-design-system",
     "babel-polyfill": "6.26.0",
     "backbone": "0.9.10",
