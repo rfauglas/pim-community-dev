@@ -130,7 +130,7 @@
     "json-schema-to-typescript": "^7.1.0",
     "less": "^3.9.0",
     "lodash": "^4.17.0",
-    "luxon": "^1.26.0",
+    "luxon": "^2.5.2",
     "react": "^16.14.0",
     "react-dom": "^16.9.12",
     "react-hook-form": "^5.2.0",
